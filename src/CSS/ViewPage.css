@@ -1,0 +1,53 @@
+.HomeContainer {
+  margin-top: 0%;
+  width: 100%;
+  height: 100vh;
+}
+
+.ViewContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.ViewContent h1 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.ViewContent h2 {
+  color: white;
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.ViewContent h3 {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+iframe {
+  display: inline-block;
+  position: fixed;
+  top: 100px;
+  width: 600px;
+  height: 350px;
+  left: 420px;
+}
+
+.bold {
+  color: white;
+  width: 350px;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-size: small;
+}
+
+.text{
+  color: rgb(184, 64, 64);
+}

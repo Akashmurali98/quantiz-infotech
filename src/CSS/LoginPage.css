@@ -1,0 +1,88 @@
+.LoginContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #0d111c;
+}
+
+header {
+  height: 60px;
+  background-color: #263e60;
+}
+
+.mainContent {
+  height: 270px;
+  width: 420px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 16px;
+}
+span {
+  color: #ff7d65;
+}
+
+h2 {
+  font-style: bold;
+  font-weight: 400;
+  text-align: left;
+  color: #28261f;
+  padding: 0px;
+  margin: 0%;
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  text-align: left;
+  margin-top: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: smaller;
+  color: #505050;
+}
+
+.mainContent input[type="text"] {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  width: 93.5%;
+  border-radius: 8px;
+  height: 30px;
+  border: 1px #505050 solid;
+  color: #505050;
+  padding-left: 20px;
+}
+
+.mainContent input[type="text"]::placeholder {
+  color: #505050;
+}
+.mainContent input[type="password"] {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  width: 93.5%;
+  border-radius: 8px;
+  height: 30px;
+  border: 1px #505050 solid;
+  color: #505050;
+  padding-left: 20px;
+}
+.SubmitButton {
+  margin-top: 20px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #ff7d65;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+header img {
+  width: 60px;
+  left: 31px;
+  top: 7px;
+  position: fixed;
+}
